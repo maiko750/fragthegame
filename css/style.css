@@ -1,0 +1,257 @@
+
+/*main container*/
+/*FRAG PRO SHOOTER 2020 TITLE,BATTLE DECK,
+AND ABOUT THIS SITE IS ALL IN  div 'header-container'
+because I am using FLEXBOX.*/
+
+
+
+.header-container{
+
+ display: flex;/*element that holds all the navigation item*/
+ flex-direction: row;/*flex items left to right*/
+ flex-wrap: nowrap;/*flex items wrap multiplie lines top to bottom*/
+ justify-content: space-around;/*line are evenly distributed*/
+  background-color:rgb(0,89,149); 
+}
+
+#frag{
+  padding:0px;
+  margin: 0px;
+}
+
+ /*border: 10px #ccc solid;*/
+
+
+ 
+
+
+
+/*all links in the header-container*/
+.header-container a {
+  color:white;
+  }
+  /*all links hover will be white*/
+   a:hover{
+    color: yellow;
+  }
+ .image-container{
+  display: flex;/*element that holds all items*/
+  flex-direction:column-reverse;/*items flow from top to botom*/
+  flex-wrap: nowrap;
+
+  align-items:baseline;
+
+  
+}
+/*FRAG PRO SHOOTER 2020 TITLE color*/
+/*#header-title{
+  color:black;
+}*/
+
+
+
+/*Battledeck section Nav*/
+#battledeck-nav{
+   /*border:3px #ccc solid;*/
+   padding: 0px;
+   margin: 0;
+
+   /*border-radius: 1rem;*/
+
+
+}
+/*ContactMe section Nav*/
+#contact-nav{
+   /*border:3px #ccc solid;*/
+   padding: 0px;
+   margin: 0px;
+   border-radius: 1rem;  
+}
+
+/*About This site Nav*/
+#about-nav{
+   /*border:3px #ccc solid;*/
+   padding: 0px;
+   margin: 0;
+   border-radius: 1rem;
+   
+}
+
+/********FOOOOOTTTTTERRRRRRRRRRRRRRRR*******************************************/
+/*changed twitter logo to have round corners*/
+#twitter-logo img{
+  border-radius: 1.3rem;
+}
+
+#Quarter-bk img{
+  border-radius: 1rem;
+}
+ 
+.container-footer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:center;
+ 
+  align-content: flex-start;
+   /*border: #ccc solid;*/
+   background: rgb(0,89,149);
+}
+
+.container-footer h2{
+  font-style: italic;
+
+  
+}
+#youtube-logo{
+/*border: #ccc solid;*/
+
+margin: 0px;
+flex-wrap: wrap;
+}
+
+#twitter-logo{
+/*border: #ccc solid;*/
+flex-wrap: wrap;
+
+}
+
+.copyright-info{
+  background-color: rgb(0,89,149);
+  text-align: center;
+  font-style: italic;
+  padding: 10px;
+
+/*border: #ccc solid;*/
+
+}
+/***********DEEEECCCCCCCKKKKKK***********************************/
+.header-deck img{
+  align-content: center;
+}
+#back{
+  padding: 1px;
+  margin: 0px;
+}
+
+.header-deck{
+  background-color:rgb(255,242,0);
+}
+/*COMMON*/
+.common-cards{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   align-content:center;
+   /*border: #CCC solid;*/
+   background-color:rgb(140,222,247);
+   
+
+}
+
+.common-cards img{
+  border-radius: 1rem;
+  border: outset grey;
+
+  width: 200px;
+  height: 280px;
+  
+}
+#common-title {
+  text-align: center;
+  /*border: #CCC solid;*/
+  background: rgb(140,222,247);
+  color: white;
+  padding:1px;
+  
+
+}
+
+/*RARE CARDS*/
+.rare-cards{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   align-content: center;
+   /*border: #CCC solid;*/
+   background-color:rgb(255,132,0);
+ }
+
+.rare-cards img{
+  border-radius: 1rem;
+  border: groove orange;
+
+  width: 200px;
+  height: 280px;
+}
+
+#rare-title {
+  text-align: center;
+  /*border: #CCC solid;*/
+  background:rgb(255,132,0);
+  color: white;
+  padding:1px;
+  
+
+}
+/*EPIC CARD*/
+
+
+.epic-cards{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   align-content: center;
+   /*border: #CCC solid;*/
+   background-color:rgb(115,12,195);
+ }
+
+.epic-cards img{
+  border-radius: 1rem;
+  border: groove rgb(132,0,255); 
+
+  width: 200px;
+  height: 280px;
+}
+#epic-title {
+  text-align: center;
+  /*border: #CCC solid;*/
+  background: rgb(115,12,195);
+  color: white;
+  padding:1px;
+  
+
+}
+/*LENGENDARY*/
+
+.legendary-cards{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   align-content: center;
+   /*border: #CCC solid;*/
+   background-color: rgb(230,26,206);
+ }
+
+.legendary-cards img{
+border-radius: 1rem;
+border: groove rgb(0,225,255); 
+width: 200px;
+height: 280px;
+}
+#legendary-title {
+  text-align: center;
+  /*\border: #CCC solid;*/
+  background: rgb(230,26,206);
+ 
+  color: white;
+  padding:1px;
+  margin: 0px;
+  
+
+}
